@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
-    <>
       <ul>
         <li>Good: {good}</li>
         <li>Neutral: {neutral}</li>
@@ -10,7 +9,6 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
         <li>Total: {total}</li>
         <li>positive feedback: {positivePercentage}%</li>
       </ul>
-    </>
   );
 };
 
